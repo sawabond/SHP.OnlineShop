@@ -2,10 +2,10 @@ FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build-env
 WORKDIR /app
 
 # Copy csproj and restore as distinct layers
-COPY SHP.AuthorizationServer.Web/*.csproj ./
+COPY SHP.OnlineShopAPI.Web/*.csproj ./
 RUN dotnet restore
 
-COPY SHP.AuthorizationServer.Web/. ./
+COPY SHP.OnlineShopAPI.Web/. ./
 RUN dotnet publish -c Release -o out
 
 # Build runtime image
