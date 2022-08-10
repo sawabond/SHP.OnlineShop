@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/OnlineShopAPI.csproj",
+                "${workspaceFolder}/IdentityServer/IdentityServer.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/OnlineShopAPI.csproj",
+                "${workspaceFolder}/IdentityServer/IdentityServer.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/OnlineShopAPI.csproj"
+                "${workspaceFolder}/IdentityServer/IdentityServer.csproj"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -46,12 +46,12 @@
             "dockerBuild": {
                 "tag": "onlineshopapi:dev",
                 "target": "base",
-                "dockerfile": "${workspaceFolder}/Dockerfile",
+                "dockerfile": "${workspaceFolder}/IdentityServer/Dockerfile",
                 "context": "${workspaceFolder}",
                 "pull": true
             },
             "netCore": {
-                "appProject": "${workspaceFolder}/OnlineShopAPI.csproj"
+                "appProject": "${workspaceFolder}/IdentityServer/IdentityServer.csproj"
             }
         },
         {
@@ -62,12 +62,12 @@
             ],
             "dockerBuild": {
                 "tag": "onlineshopapi:latest",
-                "dockerfile": "${workspaceFolder}/Dockerfile",
+                "dockerfile": "${workspaceFolder}/IdentityServer/Dockerfile",
                 "context": "${workspaceFolder}",
                 "pull": true
             },
             "netCore": {
-                "appProject": "${workspaceFolder}/OnlineShopAPI.csproj"
+                "appProject": "${workspaceFolder}/IdentityServer/IdentityServer.csproj"
             }
         },
         {
@@ -76,9 +76,11 @@
             "dependsOn": [
                 "docker-build: debug"
             ],
-            "dockerRun": {},
+            "dockerRun": {
+                "os": "Windows"
+            },
             "netCore": {
-                "appProject": "${workspaceFolder}/OnlineShopAPI.csproj",
+                "appProject": "${workspaceFolder}/IdentityServer/IdentityServer.csproj",
                 "enableDebugging": true
             }
         },
@@ -88,9 +90,11 @@
             "dependsOn": [
                 "docker-build: release"
             ],
-            "dockerRun": {},
+            "dockerRun": {
+                "os": "Windows"
+            },
             "netCore": {
-                "appProject": "${workspaceFolder}/OnlineShopAPI.csproj"
+                "appProject": "${workspaceFolder}/IdentityServer/IdentityServer.csproj"
             }
         }
     ]
