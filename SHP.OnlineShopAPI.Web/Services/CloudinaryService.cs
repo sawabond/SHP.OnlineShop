@@ -1,11 +1,11 @@
 ﻿using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
 using Microsoft.Extensions.Configuration;
-using OnlineShopAPI.Options;
-using OnlineShopAPI.Services.Interfaces;
+using SHP.OnlineShopAPI.Web.Options;
+using SHP.OnlineShopAPI.Web.Services.Interfaces;
 using System.Threading.Tasks;
 
-namespace OnlineShopAPI.Services
+namespace SHP.OnlineShopAPI.Web.Services
 {
     public class CloudinaryService : ICloudinaryService
     {

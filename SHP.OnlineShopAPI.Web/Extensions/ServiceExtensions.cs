@@ -9,14 +9,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using OnlineShopAPI.Mapping;
-using OnlineShopAPI.Options;
-using OnlineShopAPI.Services;
-using OnlineShopAPI.Services.Interfaces;
+using SHP.OnlineShopAPI.Web.Mapping;
+using SHP.OnlineShopAPI.Web.Options;
+using SHP.OnlineShopAPI.Web.Services;
+using SHP.OnlineShopAPI.Web.Services.Interfaces;
 using Swashbuckle.AspNetCore.Filters;
 using System.Text;
 
-namespace OnlineShopAPI.Extensions
+namespace SHP.OnlineShopAPI.Web.Extensions
 {
     public static class ServiceExtensions
     {

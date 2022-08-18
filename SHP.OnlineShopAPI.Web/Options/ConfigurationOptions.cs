@@ -1,4 +1,4 @@
-﻿namespace OnlineShopAPI.Options
+﻿namespace SHP.OnlineShopAPI.Web.Options
 {
     public static class ConfigurationOptions
     {
