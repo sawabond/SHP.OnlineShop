@@ -9,7 +9,7 @@ using SHP.OnlineShopAPI.Web.Services.Interfaces;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace SHP.OnlineShopAPI.Tests
+namespace SHP.OnlineShopAPI.Tests.ControllerTests
 {
     public class UserProfileControllerTests
     {

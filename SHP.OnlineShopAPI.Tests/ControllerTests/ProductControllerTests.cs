@@ -17,7 +17,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace SHP.OnlineShopAPI.Tests
+namespace SHP.OnlineShopAPI.Tests.ControllerTests
 {
     public class ProductControllerTests
     {
