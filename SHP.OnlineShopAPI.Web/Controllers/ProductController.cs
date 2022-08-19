@@ -5,15 +5,15 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using OnlineShopAPI.Constants;
-using OnlineShopAPI.DTO;
-using OnlineShopAPI.DTO.Product;
-using OnlineShopAPI.Mapping;
+using SHP.OnlineShopAPI.Web.Constants;
+using SHP.OnlineShopAPI.Web.DTO;
+using SHP.OnlineShopAPI.Web.DTO.Product;
+using SHP.OnlineShopAPI.Web.Mapping;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OnlineShopAPI.Controllers
+namespace SHP.OnlineShopAPI.Web.Controllers
 {
     [Authorize(Roles = Roles.AdminOrModerOrSeller)]
     [Route("api/[controller]")]

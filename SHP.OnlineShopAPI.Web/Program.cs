@@ -1,11 +1,7 @@
-using DAL;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using OnlineShopAPI.Services;
-using System.Threading.Tasks;
 
-namespace OnlineShopAPI
+namespace SHP.OnlineShopAPI.Web
 {
     public class Program
     {

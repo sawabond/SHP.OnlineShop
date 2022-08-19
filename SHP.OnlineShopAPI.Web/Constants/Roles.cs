@@ -1,4 +1,4 @@
-﻿namespace OnlineShopAPI.Constants
+﻿namespace SHP.OnlineShopAPI.Web.Constants
 {
     public static class Roles
     {

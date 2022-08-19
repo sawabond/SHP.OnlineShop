@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
 
-namespace OnlineShopAPI.Services.Interfaces
+namespace SHP.OnlineShopAPI.Web.Services.Interfaces
 {
     public interface IPhotoService
     {

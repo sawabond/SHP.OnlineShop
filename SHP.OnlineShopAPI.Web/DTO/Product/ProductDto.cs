@@ -1,4 +1,4 @@
-﻿namespace OnlineShopAPI.DTO.Product
+﻿namespace SHP.OnlineShopAPI.Web.DTO.Product
 {
     public class ProductDto
     {

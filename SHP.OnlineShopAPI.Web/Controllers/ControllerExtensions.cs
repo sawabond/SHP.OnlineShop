@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Security.Claims;
 
-namespace OnlineShopAPI.Controllers
+namespace SHP.OnlineShopAPI.Web.Controllers
 {
     public static class ControllerExtensions
     {

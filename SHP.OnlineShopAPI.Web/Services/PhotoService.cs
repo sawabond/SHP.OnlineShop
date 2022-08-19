@@ -3,12 +3,12 @@ using CloudinaryDotNet.Actions;
 using DAL.Entities;
 using DAL.Interfaces;
 using Microsoft.AspNetCore.Http;
-using OnlineShopAPI.Services.Interfaces;
+using SHP.OnlineShopAPI.Web.Services.Interfaces;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OnlineShopAPI.Services
+namespace SHP.OnlineShopAPI.Web.Services
 {
     public class PhotoService : IPhotoService
     {

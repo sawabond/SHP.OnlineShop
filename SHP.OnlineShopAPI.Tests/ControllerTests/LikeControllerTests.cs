@@ -6,14 +6,14 @@ using FluentAssertions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using OnlineShopAPI.Controllers;
-using OnlineShopAPI.DTO.Product;
-using OnlineShopAPI.Mapping;
+using SHP.OnlineShopAPI.Web.Controllers;
+using SHP.OnlineShopAPI.Web.DTO.Product;
+using SHP.OnlineShopAPI.Web.Mapping;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace OnlineShopAPI.Tests
+namespace SHP.OnlineShopAPI.Tests.ControllerTests
 {
     public class LikeControllerTests
     {

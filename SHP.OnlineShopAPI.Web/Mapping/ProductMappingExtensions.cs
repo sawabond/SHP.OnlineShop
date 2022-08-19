@@ -1,7 +1,7 @@
 ﻿using DAL.Entities;
-using OnlineShopAPI.DTO.Product;
+using SHP.OnlineShopAPI.Web.DTO.Product;
 
-namespace OnlineShopAPI.Mapping
+namespace SHP.OnlineShopAPI.Web.Mapping
 {
     public static class ProductMappingExtensions
     {

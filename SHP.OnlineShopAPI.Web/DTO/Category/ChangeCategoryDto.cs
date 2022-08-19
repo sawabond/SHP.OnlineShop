@@ -1,4 +1,4 @@
-﻿namespace OnlineShopAPI.DTO.Category
+﻿namespace SHP.OnlineShopAPI.Web.DTO.Category
 {
     public class ChangeCategoryDto
     {

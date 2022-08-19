@@ -2,11 +2,11 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using OnlineShopAPI.Constants;
-using OnlineShopAPI.Services.Interfaces;
+using SHP.OnlineShopAPI.Web.Constants;
+using SHP.OnlineShopAPI.Web.Services.Interfaces;
 using System.Threading.Tasks;
 
-namespace OnlineShopAPI.Controllers
+namespace SHP.OnlineShopAPI.Web.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

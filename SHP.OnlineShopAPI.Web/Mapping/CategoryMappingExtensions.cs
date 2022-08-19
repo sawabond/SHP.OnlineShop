@@ -1,7 +1,7 @@
 ﻿using DAL.Entities;
-using OnlineShopAPI.DTO.Category;
+using SHP.OnlineShopAPI.Web.DTO.Category;
 
-namespace OnlineShopAPI.Mapping
+namespace SHP.OnlineShopAPI.Web.Mapping
 {
     public static class CategoryMappingExtensions
     {

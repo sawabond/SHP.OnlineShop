@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using DAL.Entities;
-using OnlineShopAPI.DTO.Category;
-using OnlineShopAPI.DTO.Product;
+using SHP.OnlineShopAPI.Web.DTO.Category;
+using SHP.OnlineShopAPI.Web.DTO.Product;
 
-namespace OnlineShopAPI.Mapping
+namespace SHP.OnlineShopAPI.Web.Mapping
 {
     public class MappingProfile : Profile
     {

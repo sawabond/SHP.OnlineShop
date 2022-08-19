@@ -4,14 +4,14 @@ using DAL.Interfaces;
 using FluentAssertions;
 using Microsoft.AspNetCore.Http;
 using Moq;
-using OnlineShopAPI.Services;
-using OnlineShopAPI.Services.Interfaces;
+using SHP.OnlineShopAPI.Web.Services;
+using SHP.OnlineShopAPI.Web.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace OnlineShopAPI.Tests
+namespace SHP.OnlineShopAPI.Tests.ServiceTests
 {
     public class PhotoServiceTests
     {

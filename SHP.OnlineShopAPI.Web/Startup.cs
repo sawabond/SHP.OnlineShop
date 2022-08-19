@@ -5,10 +5,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using OnlineShopAPI.Extensions;
-using OnlineShopAPI.Options;
+using SHP.OnlineShopAPI.Web.Extensions;
+using SHP.OnlineShopAPI.Web.Options;
 
-namespace OnlineShopAPI
+namespace SHP.OnlineShopAPI.Web
 {
     public class Startup
     {

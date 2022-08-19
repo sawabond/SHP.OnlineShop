@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace OnlineShopAPI.DTO
+namespace SHP.OnlineShopAPI.Web.DTO
 {
     public class IdRangeModel
     {

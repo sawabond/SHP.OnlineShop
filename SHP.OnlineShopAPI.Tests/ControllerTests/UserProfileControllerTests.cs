@@ -4,12 +4,12 @@ using FluentAssertions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using OnlineShopAPI.Controllers;
-using OnlineShopAPI.Services.Interfaces;
+using SHP.OnlineShopAPI.Web.Controllers;
+using SHP.OnlineShopAPI.Web.Services.Interfaces;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace OnlineShopAPI.Tests
+namespace SHP.OnlineShopAPI.Tests.ControllerTests
 {
     public class UserProfileControllerTests
     {

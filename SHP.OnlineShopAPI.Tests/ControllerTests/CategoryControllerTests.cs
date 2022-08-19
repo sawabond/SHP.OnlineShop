@@ -7,15 +7,15 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Moq;
-using OnlineShopAPI.Controllers;
-using OnlineShopAPI.DTO.Category;
-using OnlineShopAPI.Mapping;
+using SHP.OnlineShopAPI.Web.Controllers;
+using SHP.OnlineShopAPI.Web.DTO.Category;
+using SHP.OnlineShopAPI.Web.Mapping;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace OnlineShopAPI.Tests
+namespace SHP.OnlineShopAPI.Tests.ControllerTests
 {
     public class CategoryControllerTests
     {
