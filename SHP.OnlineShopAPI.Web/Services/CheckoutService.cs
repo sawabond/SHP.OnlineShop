@@ -43,7 +43,7 @@ namespace SHP.OnlineShopAPI.Web.Services
                 .Sum(x => x.Second.Amount * x.First.Price * PenniesInOneDollar);
             
             _logger.LogInformation($"Basket contains products: {string.Join(',', productIds)}");
-            _logger.LogInformation($"Total price for the basket is {totalPrice} {PaymentCurrency}");
+            _logger.LogInformation($"Total price for the basket is {totalPrice / PenniesInOneDollar} {PaymentCurrency}");
 
             try
             {
