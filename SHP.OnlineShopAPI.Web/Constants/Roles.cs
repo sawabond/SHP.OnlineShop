@@ -10,5 +10,7 @@
         public const string AdminOrModer = Admin + "," + Moder;
 
         public const string AdminOrModerOrSeller = AdminOrModer + "," + Seller;
+
+        public const string AdminOrModerOrBuyer = AdminOrModer + "," + Buyer;
     }
 }

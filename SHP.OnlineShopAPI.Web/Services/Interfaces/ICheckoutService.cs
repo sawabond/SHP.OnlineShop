@@ -6,6 +6,6 @@ namespace SHP.OnlineShopAPI.Web.Services.Interfaces
 {
     public interface ICheckoutService
     {
-        Task Checkout(IEnumerable<ProductInBasketDto> productsInBasket, string stripeToken);
+        Task<bool> Checkout(IEnumerable<ProductInBasketDto> productsInBasket, CreditCardDto card);
     }
 }
