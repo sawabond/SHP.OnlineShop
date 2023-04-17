@@ -42,6 +42,7 @@ namespace SHP.OnlineShopAPI.Web.Extensions
             services.AddScoped<ICloudinaryService, CloudinaryService>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IPhotoService, PhotoService>();
+            services.AddScoped<ICheckoutService, CheckoutService>();
 
             return services;
         }

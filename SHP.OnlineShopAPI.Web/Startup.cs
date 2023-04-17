@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SHP.OnlineShopAPI.Web.Extensions;
 using SHP.OnlineShopAPI.Web.Options;
+using Stripe;
 
 namespace SHP.OnlineShopAPI.Web
 {
@@ -19,9 +20,9 @@ namespace SHP.OnlineShopAPI.Web
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            StripeConfiguration.ApiKey = Configuration["Stripe:Secret"];
             services.AddAutoMapping();
             services.ProvideIdentity();
             services.AddBearerAuthentication(Configuration);
